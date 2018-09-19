@@ -7,36 +7,39 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700|Raleway:700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<header>
-		<img src="img/logo.png" alt="logo" >
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<h1>Hi, my name is Nadja. <span>I am a UX Designer based in Berlin.</span></h1>
-	<div>
-		<div>
-			<img src="img/schnitzeljagd.jpg" width="350px" alt="Schnitzeljagd App" >
-        	<h2>Schnitzeljagd Web-App</h2>
-		</div>
-		<div>
-			<img src="img/perfect-properties.jpg" width="350px" alt="Perfect Property" >
-        	<h2>Perfect Property App</h2>
-		</div>
-		<div>
-			<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Work Sample 3" >
-        	<h2>Portfolio Piece 3</h2>
-		</div>
-		<div>
-			<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Work Sample 4" >
-        	<h2>Portfolio Piece 4</h2>
-		</div>
+	<div class="wrapper">
+			<header>
+				<img class="logo" src="img/logo.png" alt="logo" >
+				<nav>
+					<ul class="navigation">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<h1>Hi, my name is Nadja. <span>I am a UX Designer based in Berlin.</span></h1>
+			<div class="columns-container">
+				<div class="column-4">
+					<img src="img/schnitzeljagd.jpg" width="100%" alt="Schnitzeljagd App" >
+					<h2>Schnitzeljagd Web-App</h2>
+				</div>
+				<div class="column-4">
+					<img src="img/perfect-properties.jpg" width="100%" alt="Perfect Property" >
+					<h2>Perfect Property App</h2>
+				</div>
+				<div class ="column-4">
+					<img src="img/schnitzeljagd.jpg" width="100%"  alt="Work Sample 3" >
+					<h2>Schnitzeljagd Web-App</h2>
+				</div>
+				<div class="column-4">
+					<img src="img/perfect-properties.jpg" width="100%" alt="Work Sample 4" >
+					<h2>Perfect Property App</h2>
+				</div>
+			</div>
 	</div>
 </body>
 </html>
