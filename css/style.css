@@ -157,11 +157,12 @@ button:focus {
 	}
 
 @keyframes boat-move {
-	from {transform: rotate(0);}
-	to {transform:rotate(3deg)}
+	from {transform: rotate(3deg);}
+	to {transform:rotate(-3deg)}
 	}
 
 .boat {
+	transform-origin: 90px 140px;
 	animation: 10s boat-move infinite alternate linear;
 	}
 
